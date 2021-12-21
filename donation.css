@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#BGvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+
+.content {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 60%;
+    height: 600px;
+    padding: 20px;
+    margin: 70px 300px;
+    background-repeat: no-repeat;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.content h1{
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content form{
+    margin-left: 20%;
+}
+
+.content form .first-name{
+    float: left;
+}
+
+.content form .last-name{
+    float: left;
+    padding-left: 23px;
+}
+
+.content form .state{
+    float:left;
+    padding-left: 23px;
+}
+
+.content form .donation-amount{
+    float:left;
+    padding-left: 23px;
+}
+
+.content form #btn{
+    height: 40px;
+    width: 78%;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.content form #btn:hover{
+    background-color: #213e8c;
+    color: white;
+}
